@@ -9,7 +9,7 @@ package util;
 public class Util {
     // Suppress default constructor for noninstantiabilty
     private Util(){
-
+        throw new AssertionError();
     }
 
     public static void execute(){
